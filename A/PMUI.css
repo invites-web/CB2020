@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+@font-face{
+    font-family: 'of';
+    src: url(./OF.TTF);
+}
+
+.NAME{
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    text-align: center;
+}
+
+body{
+    font-family: 'Noto Serif', serif;
+    font-size: small;
+}
+
+hr{
+    height: 2px;
+    border-style: none;
+    border-width: 0px;
+    background-color: rgb(150, 150, 150);
+}
+
+.WID {
+    width: 100%;
+    max-width: 340px;
+    position: relative;
+}
+
+.FADE{
+    animation: fad 5s infinite;
+    /* animation-fill-mode: forwards; */
+    animation-timing-function: cubic-bezier(0,1,1,0);
+}
+
+
+/* .DATI{
+    width: 97%;
+    background-color: red;
+    margin: 1%;
+}
+
+.DATI > span:first-child{
+    display: inline-block;
+    width: 25%;
+    background-color: purple;
+}
+
+.DATI > span:last-child{
+    display: inline-block;
+    background-color: grey;
+}
+
+.DATI > span > p{
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 5px;
+    padding: 0px;
+    margin-top: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;    
+} */
+
+.FLYS:nth-child(1){
+    background-color: #FF9800;
+    width: 50px;
+    height: 50px;
+    /* display: inline-block; */
+    animation-delay: 3s;
+    /* animation-fill-mode: forwards; */
+    /* animation-direction: alternate; */
+    /* transform: translateX(25%); */
+    /* transform: translateY(30%); */
+    /* transform: translateY(50%); */
+    /* transform: rotateZ(70deg); */
+    /* transform: translate(10%,25%); */
+}
+
+.FLYS:nth-child(2){
+    background-color: rgb(57, 0, 214);
+    width: 30px;
+    height: 30px;
+    animation-delay: 5s;
+}
+
+.FLYS:nth-child(3){
+    background-color: rgb(31, 121, 19);
+    width: 97px;
+    height: 97px;
+    animation-delay: 2.2s;
+}
+
+.FLYS:nth-child(4){
+    background-color: rgb(95, 240, 208);
+    width: 43px;
+    height: 43px;
+    animation-delay: 1.9s;
+}
+
+.FLYS:nth-child(5){
+    background-color: rgb(61, 185, 57);
+    width: 30px;
+    height: 30px;
+    animation-delay: 1.6s;
+}
+
+.FLYS:nth-child(6){
+    background-color: rgb(150, 6, 6);
+    width: 79px;
+    height: 79px;
+    animation-delay: 3.3s;
+}
+
+.FLYS:nth-child(7){
+    background-color: rgb(0, 167, 144);
+    width: 61px;
+    height: 61px;
+    animation-delay: 3.4s;
+}
+
+.FLYS:nth-child(8){
+    background-color: rgb(211, 0, 28);
+    width: 52px;
+    height: 52px;
+    animation-delay: 3.4s;
+}
+
+.FLYS:nth-child(9){
+    background-color: rgb(155, 62, 0);
+    width: 70px;
+    height: 70px;
+    animation-delay: 2.5s;
+}
+
+.FLYS:nth-child(10){
+    background-color: rgb(0, 214, 11);
+    width: 10%x;
+    height: 10%;
+    animation-delay: 4.3s;
+}
+
+
+.HEAD{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+.HECON{
+    width: auto;
+    height: 36px;
+    display: inline-block;
+    background-color: rgba(138, 136, 136, 0.24);
+    margin: 2px 0px;
+    text-align: center;
+    font-family: 'of', cursive;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.DPSE{
+    width: 100%;
+    height: auto;
+    
+}
+
+.TEXTANI{
+    /* width: 100%; */
+    display: inline-block;
+    margin: 0px 3px;
+    /* transform: rotateZ(30deg); */
+    /* background-color: #BF0048; */
+    animation: jingel 0.7s infinite ease-in-out;
+    /* animation-fill-mode: forwards; */
+    animation-direction: alternate-reverse;
+}
+
+.DPSE > span{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 12px;
+    padding: 3px;
+    background: linear-gradient(-142deg,#BF0048,#FF9800);
+    position: relative;
+}
+
+.DPSE > span > img{
+    width: 70px;
+    border-radius: 50%; 
+}
+
+.DPCOV{
+    width: 76px;
+    height: 76px;
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+}
+.DPSE > p{
+    width: auto;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+.WALSE{
+    width: 100%;
+    position: relative;
+}
+.WALSE > img{
+    width: 100%;
+}
+.IMGCOV{
+    width: 340px;
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+}
+.RESE{
+    width: 100%;
+    height: 40px;
+    position: sticky;
+}
+.WADE > div{
+    display: inline-block;
+    margin-left: 10px;
+}
+.WADE > div:last-child{
+    margin-left: 6px;
+}
+.WADE > div > img{
+    width: 1.6em;
+}
+.INSE{
+    width: 100%;
+    height: 40px;
+}
+
+#maida > span:first-child{
+    font-size: large;
+    color: rgb(7, 7, 100);
+}
+
+#maida > span > h6{
+    text-align: right;
+    padding-right: 43%;
+    margin-top: 20px;
+    font-size: small;
+}
+
+#maida > span > h5{
+    text-align: right;
+    margin-top: 7px;
+    padding-right: 20px;
+    font-size: medium;
+}
+
+#calda{
+    text-align: left;
+}
+
+.HGT{
+    width: 25px;
+}
+
+.CONPI{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.CONP{
+    display: inline-block;
+}
+.CONP:last-child{
+    margin-left: 10px;
+    margin-top: 5px;
+    vertical-align: top;
+    animation: blin 3s infinite;
+    animation-fill-mode: forwards;
+}
+
+#locda > iframe{
+    width: 100%;
+    height: 20vh;
+}
+
+
+.UND{
+    width: 2px;
+    height: 4px;
+    display: inline-block;
+    background: linear-gradient(to right,#BF0048 ,#FF9800);
+    border-radius: 10px;
+    vertical-align: top;
+    animation: wc 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.AD{
+    animation-delay: 2.5s;
+}
+
+@keyframes blin{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-o-keyframes blin{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blin{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blin{
+    from{
+        opacity: 0.3;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes wc{
+    from{
+        width: 2px;
+    }
+    to{
+        width: 40px;
+    }
+}
+
+@-o-keyframes wc{
+    from{
+        width: 2px;
+    }
+    to{
+        width: 40px;
+    }
+}
+
+@-moz-keyframes wc{
+    from{
+        width: 2px;
+    }
+    to{
+        width: 40px;
+    }
+}
+
+@-webkit-keyframes wc{
+    from{
+        width: 2px;
+    }
+    to{
+        width: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fad{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+
+@-o-keyframes fad{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+
+@-moz-keyframes fad{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
+
+@-webkit-keyframes fad{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0.7;
+    }
+}
